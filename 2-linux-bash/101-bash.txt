@@ -1,0 +1,51 @@
+#What is Linux and how to get started?
+#Introducing the Shell environment.
+#Compare cloud shell environment.
+
+# Reflection Questions
+# In what ways could a deep knowledge of Linux shell help in your role?
+# What are some key differences between using Linux virtually vs a cloud shell?
+# When would you use containers over VMs for Linux?
+# What automation opportunities exist with knowledge of shell commands?
+# How could mastering the Linux shell improve productivity?
+
+# Challenge Exercises
+# Install a Linux distribution with VirtualBox and practice common commands
+# Translate 5 common workflows to terminal commands
+# Create a shell script that batches image conversions
+# Containerize an application backend with Dockerfile
+# Research advanced shell customization with dotfiles
+
+#command structure
+#cmd [option] [target]
+
+#Disk usage
+df -h
+du -su *
+
+#System performance
+top
+ps
+jobs
+ctrl + c "kill the process"
+ctrl + z "strop the process"
+fg [job identifier] "reestart the process"
+
+#Shell
+ipwd
+ls -lah
+cd /cmp cd ~
+which pyton3
+
+#View files
+less /etc/password
+cat /etc/password
+
+#Counting lines
+wc -l
+
+#Modify files
+touch newfile.txt
+mv newfile
+mkdir -p moredir/dir1/dir2
+rm -rf moredir

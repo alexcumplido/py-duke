@@ -1,0 +1,62 @@
+#Vim modes, movement, copy-paste-delete text
+
+# Normal mode
+h - move left
+j - move down
+k - move up
+l - move right
+
+#Insert mode
+i - before cursor
+I - beginning current line
+a - after cursor
+A - end current line
+o - new line before current line
+O - new line after current line
+
+w -  forward one word
+b - word beginning
+e - end current word
+gg - top of file
+G - bottom fo file
+
+#Yanking, pasting, deleting
+y - copy highlighted text
+yw - copy word
+yy - copy line
+p - paste
+x - delete character
+dd - delete line
+
+#Visual mode
+v - by character
+V - by line 
+Ctrl v - control block
+
+#Command line :/?
+: - execute command
+/ - search down
+? - search up
+:! - filter command
+q - close buffer
+w - save buffer
+e - open file
+new - new buffer
+sav - save buffer as
+wq - save and close buffer
+help
+
+5 Reflection Questions:
+
+What Vim mode do you find yourself using the most so far? What keys help you switch between modes?
+How has working without relying on the mouse affected your editing workflow? What Vim navigation commands are you finding most useful?
+What customizations have you made, or want to make, to tailor Vim to how you edit?
+What Vim features seem less intuitive or challenging to grasp right now? What additional practice might make them more natural?
+How could mastering Vim's modal editing model pay off in productivity gains down the road after overcoming the initial learning curve?
+
+5 Challenge Exercises:
+Try editing for 10 minutes using only Vim keyboard commands - no mouse or arrow keys! See how much you can accomplish.
+Customize your ~/.vimrc and set up at least 3 options to improve your editing experience. Ex: line numbers, syntax highlighting, auto-indenting.
+Practice text object selection using ci", di', yip, and other text objects that resonate with you. Notice how they enable precise editing.
+Edit a short file using Vim and measure your keystroke count. Now try doing the same edits in another editor and compare efficiency.
+Find and practice 3 new movement commands like %, zt, or marks. Discover how they can help you nav:igate files more quickly.
