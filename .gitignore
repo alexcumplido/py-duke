@@ -1,0 +1,13 @@
+# Ignore all venv folders in any subdirectory
+venv/
+*/venv/
+**/venv/
+
+# Ignore specific Python virtual environment folders if named differently
+.env/
+*/.env/
+**/.env/
+
+# Ignore any other virtual environment directories you may use
+.env/
+.venv/
