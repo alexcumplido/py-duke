@@ -16,8 +16,12 @@
 # Containerize an application backend with Dockerfile
 # Research advanced shell customization with dotfiles
 
+# uname -a
+Check Operative system
+
 #command structure
-#cmd [option] [target]
+#cmd -[option] [target]
+ls -lah /tmp
 
 #Disk usage
 df -h
