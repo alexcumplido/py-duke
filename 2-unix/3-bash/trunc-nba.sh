@@ -1,15 +1,15 @@
 # coursera-de-c2-truncate-file
-Using Linux Lab
 
-## Goal:  Truncate file with Bash
-
-For this project you will create a shell pipeline that truncates a file via random shuffling, then verifies the correct number of lines.  Many times large files are so big that traditional data science libraries like `pandas` or `jupyter` cannot process them. One approach to dealing with this problem is to sample the file by truncating and shuffling the results.
+# For this project you will create a shell pipeline that truncates a file via random shuffling, then verifies the correct number of lines.  Many times large files are so big that traditional data science libraries like `pandas` or `jupyter` cannot process them. One approach to dealing with this problem is to sample the file by truncating and shuffling the results.
 
 ### Part 1: Count the lines in the file and inspect the contents
 
-1.  Run `wc -l nba_2017.csv`
-2.  How many lines are in the file?
-3.  Run the `head nba_2017.csv` and inspect the first few rows of the file.
+# 1.  Run `wc -l nba_2017.csv`
+# 2.  How many lines are in the file?
+# 3.  Run the `head nba_2017.csv` and inspect the first few rows of the file.
+
+wc -l nba_2017.csv
+head nba_2017.csv
 
 ### Part 2:  Truncate and shuffle the file
 

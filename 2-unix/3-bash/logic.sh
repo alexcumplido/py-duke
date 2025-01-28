@@ -1,4 +1,4 @@
-#!/bin/bash
+# !/bin/bash
 for i in {1..10}; do 
     echo "Welcome $i times"
 done
@@ -53,7 +53,6 @@ touch one.txt\
 
 ls -l fake-file.txt &> /dev/null && echo "worked"
 
-
 false && echo "also don't work"
 true && echo "will work"
 false || echo "Run this instead"
@@ -71,23 +70,29 @@ for filename in file{1..10};
         rm $filename.txt
     done
 
-
 files=(/etc/hosts /etc/profile /etc/bashrc)
 
 for file in "${files[@]}"; do
     ls -l "$file"
 done
 
-height=5 # triangle height 
-print_triangle() {
-
-  for ((i=1; i<=height; i++)); do
-    for ((j=1; j<=i; j++)); do
-      echo -n "$j "
-    done
-    echo # newline 
-  done
-
+function preview_file() {
+    read -p "Enter a file to preivew" FILE
+    head -n 5 FILE
+    tail -n 5 FILE
 }
 
-print_triangle
+# Array and Hash
+declare -a array=("apple" "pear" "cherry")
+
+for i in "${array[@]}";
+    do 
+        echo "This ${i} is delicious!"
+    done
+
+declare -A mealhash=([dinner]="steak" [lunch]="salad" [breakfast]="fruit")
+
+for key in "${!mealhash[@]}"; 
+    do
+        echo "For $key I like to eat: ${mealhash[$key]}"
+    done

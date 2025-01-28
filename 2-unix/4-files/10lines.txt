@@ -1,0 +1,10 @@
+CA	1S29nNe9XbsKaj	pTsFewHU5M5yn0TC	yUZkaudN18	4117269061	Refrigerator Model l7uZA	Refrigerator	3	42	75	N	N	Terrible Microwave	This is a mediocre Toaster. I would recommend it.	2019-08-01	positive
+DE	E8nTm4rn5r4CI2	SvWnOXYK6ge77Yj4	Jb3Y9SDv0T	4285982426	Microwave Model 7CTCx	Microwave	5	92	7	Y	Y	Not good Microwave	This is a excellent Blender. I would recommend it.	2022-11-22	neutral
+FR	158PifrSJmiWXD	1CzpQ59bMnLUEv1y	JW30Erlh22	8632674439	Toaster Model ubfoG	Toaster	3	88	87	N	Y	Terrible Blender	This is a excellent Toaster. I would recommend it.	2023-02-02	negative
+US	OJD8LtwknkzRGo	lxeiblkL53fCvPId	6zpx3sZeMo	4806593122	Microwave Model XQMcp	Blender	5	94	93	N	N	Excellent Air Conditioner	This is a excellent Microwave. I would recommend it.	2010-12-12	neutral
+US	m6Akt6ZnfdfLqD	CHRnmB0Q7j3vfkgM	MaEoG8DquU	1647564435	Microwave Model HlPkX	Air Conditioner	2	16	9	Y	N	Average Blender	This is a unsatisfactory Air Conditioner. I would not recommend it.	2016-04-20	neutral
+DE	958GPWbkAG9v9r	6k2uqBNBxSKT2LGZ	NFJIwSS3kR	4345037643	Air Conditioner Model koX9C	Air Conditioner	4	68	32	Y	N	Terrible Refrigerator	This is a fantastic Blender. I would not recommend it.	2015-01-13	positive
+CA	5nM3Gu9CGJLl77	VGY80U1ofnSQDdrZ	SsdS8RoF7Q	8924873604	Blender Model fiiEw	Microwave	4	35	45	Y	N	Average Air Conditioner	This is a excellent Toaster. I would recommend it.	2016-06-15	negative
+CA	FwyQYznZA1BCWF	zvhbT0DxE9BeHP4K	HXmalxSAdP	7500437667	Air Conditioner Model 24Sll	Blender	5	24	78	N	Y	Great Refrigerator	This is a excellent Toaster. I would not recommend it.	2017-10-24	positive
+FR	7C9zzXsm63sRQO	JCm2uCtGqFJVoK8T	8a7Jw1v7jH	7426444508	Microwave Model hQFXO	Toaster	3	30	98	Y	Y	Terrible Blender	This is a poor Toaster. I would recommend it.	2021-04-22	neutral
+FR	AsuuuPfoOCx8cP	hnBIMjE4EqSIgtYZ	83gsx2WRs1	6421071764	Air Conditioner Model yyiQa	Blender	2	42	96	Y	Y	Great Microwave	This is a mediocre Air Conditioner. I would recommend it.	2014-10-06	positive
