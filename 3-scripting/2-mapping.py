@@ -1,4 +1,6 @@
-# Iterating over data structures
+# Apply different Python data structures to work with data.
+# Extract data from different sources and map it to Python data structures.
+# Persist and load data using JSON, a popular data format.
 
 names = ['John', 'Mary', 'Alfredo', 'Kennedy', 'Jim']
 

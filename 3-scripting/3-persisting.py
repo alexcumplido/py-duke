@@ -1,77 +1,82 @@
+# Apply different Python data structures to work with data.
+# Extract data from different sources and map it to Python data structures.
+# Persist and load data using JSON, a popular data format.
+
+
 import json
 import os
 from csv import DictReader
 import pandas as pd
 
-# # Serialize and dump
-# data = {"John": "John@example.org", "Mary": "Mary@example.org", "Jim": "Jim@example.org"}
-# json_data = json.dumps(data)
+# Serialize and dump
+data = {"John": "John@example.org", "Mary": "Mary@example.org", "Jim": "Jim@example.org"}
+json_data = json.dumps(data)
 
-# # Deserialize data
-# dict_deserialized = json.loads(json_data)
-# print(type(json_data))
+# Deserialize data
+dict_deserialized = json.loads(json_data
+print(type(json_data))
 
-# str_deserialized = json.loads('[1,2,3]')
-# print(type(str_deserialized))
+str_deserialized = json.loads('[1,2,3]')
+print(type(str_deserialized))
 
-# # 1 Serialize and dump
-# # Serialize: serialize a python object to a format like JSON
-# # Dump: serialize a python object into JSON
-# # Write_ save data to a file
-# with open('data.json', 'w') as file:
-#     json.dump(data, file)
+# 1 Serialize and dump
+# Serialize: serialize a python object to a format like JSON
+# Dump: serialize a python object into JSON
+# Write_ save data to a file
+with open('data.json', 'w') as file:
+    json.dump(data, file)
 
-# # Read JSON file to a Python Dictionary
-# # Deserialize: Convert JSON to a python object
-# # Read_ Get content of a file as string
-# # Load_ Read JSON data into  a Python object
-# with open('data.json') as file:
-#     data = json.load(file)
-#     print(type(data))
+# Read JSON file to a Python Dictionary
+# Deserialize: Convert JSON to a python object
+# Read_ Get content of a file as string
+# Load_ Read JSON data into  a Python object
+with open('data.json') as file:
+    data = json.load(file)
+    print(type(data))
 
-# file_exists = os.path.exists('data.json')
-# print(f"Veririfaction data.json file exist", file_exists)
+file_exists = os.path.exists('data.json')
+print(f"Veririfaction data.json file exist", file_exists)
 
-# sql_file = open("../files/populate.sql")
+sql_file = open("../files/populate.sql")
 
 
-# # Ideal for processing all at once
-# # sql_contents = sql_file.read()
+# Ideal for processing all at once
+# sql_contents = sql_file.read()
 
-# ## Ideal to process line by line
-# sql_contents = sql_file.readlines()
+## Ideal to process line by line
+sql_contents = sql_file.readlines()
 
-# print(sql_contents)
-# sql_file.close()
+print(sql_contents)
+sql_file.close()
 
-# ## using a context manager
-# with open("../files/populate.sql") as sql_file:
-#     sql_contents = sql_file.readlines()
-#     print(sql_contents)
+## using a context manager
+with open("../files/populate.sql") as sql_file:
+    sql_contents = sql_file.readlines()
+    print(sql_contents)
 
-# import pandas as pd
+import pandas as pd
 
-# df = pd.read_csv("../files/wine-ratings-small.csv")
-# print(df.head)
+df = pd.read_csv("../files/wine-ratings-small.csv")
+print(df.head)
 
-# data_raw = {"name": "Alexandre", "data": 1, "valid": True}
-# json_output = json.dumps(data_raw)
-# print(type(json_output))
-# python_dictionary = json.loads(json_output)
-# print(python_dictionary['valid'])
+data_raw = {"name": "Alexandre", "data": 1, "valid": True}
+json_output = json.dumps(data_raw)
+print(type(json_output))
+python_dictionary = json.loads(json_output)
+print(python_dictionary['valid'])
 
-# with open("../files/wine-ratings.json") as file:
-#     loaded_jason = json.load(file)
-#     print(loaded_jason)
+with open("../files/wine-ratings.json") as file:
+    loaded_jason = json.load(file)
+    print(loaded_jason)
 
-# data = {"name": "Alexandre", "data": 1, "valid": True}
+data = {"name": "Alexandre", "data": 1, "valid": True}
 
-# with open("../files/sample_data.json", "w") as file:
-#     json.dump(data, file)
+with open("../files/sample_data.json", "w") as file:
+    json.dump(data, file)
 
-# with open("../files/sample_data.json", 'r') as file:
-#     loaded_json = json.load(file)
-#     print(type(loaded_json['valid']))
+with open("../files/sample_data.json", 'r') as file:
+    loaded_json = json.load(file)
+    print(type(loaded_json['valid']))
 
 
 # Load a csv file
