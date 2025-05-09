@@ -1,0 +1,53 @@
+# Characteristics: Independence and Single purpose
+# Benefits: Speed development, container deploymen, reslience (isolation), polyglot
+
+Summary
+
+Focuses on microservice architectures and key characteristics like independence and single purpose
+Covers creating project structure for continuous integration and delivery
+Explains mapping a function to a microservice and deploying
+Discusses benefits like fast development, resilience, polyglot programming
+
+Key Points
+
+Microservices enable building independent components in any language
+They aim to serve one specific function like ML prediction
+Containers package dependencies for reliable deployment
+Fast prototyping is possible by deploying functions as services
+Fault isolation improves resilience
+Reflection Questions
+
+How can microservices improve development velocity on large teams?
+How does independent development enable polyglot programming?
+Why is single purpose important for resilience?
+What role do containers play in reliable microservice deployment?
+What examples of functions can be deployed as services?
+
+# Challenge Exercises
+Containerize a Python machine learning prediction service
+Set up a continuous integration pipeline for a microservice
+Create a Python ETL data pipeline function and deploy as a web service
+Build a Flask endpoint that classifies fruit images
+Test fault tolerance by crashing parts of a microservice system
+
+Top 3 Key Points
+
+Python is great for quickly building microservices and mapping them to web frameworks like Flask and FastAPI.
+New paradigms like AWS Lambda allow event-driven microservices.
+Can download models from Databricks and treat them like independent microservices.
+
+5 Reflection Questions
+
+What are some benefits of the microservice architecture pattern?
+How can Python's flexibility help in building modular microservices?
+What is the difference between request-driven and event-driven programming models?
+What types of tasks is AWS Lambda well suited for?
+How do microservices enable continuous delivery and deployment?
+
+5 Challenges
+
+Build a simple Python microservice with FastAPI and deploy it using AWS AppRunner
+Create an AWS Lambda function that processes an event
+Modify existing code to treat model downloading as an independent microservice
+Research best practices for building robust and scalable microservices
+Set up a continuous integration pipeline to test your microservices

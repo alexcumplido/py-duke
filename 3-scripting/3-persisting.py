@@ -8,13 +8,24 @@ import os
 from csv import DictReader
 import pandas as pd
 
+grape_data = {"name": "Cabernet France", "regions": [{"country": "France", "sub-regions": ["Bordeaux", "Loire Valley"]},{"country": "Italy", "sub-regions": ["Apulia", "Tuscany"]}, {"country": "Argentina", "sub-regions": ["Mendoza", "Lujan de Cuyo", "Salta"]}]} 
+
+data_as_json = json.dumps(grape_data, sort_keys=True, indent=2)
+print(data_as_json)
+
+
+
+quit()
+
+
 # Serialize and dump
-data = {"John": "John@example.org", "Mary": "Mary@example.org", "Jim": "Jim@example.org"}
+data = {"grape": "Cabernet Franc", "species": "Vitis vinifera", "origin": "Bordeaux, France"}
 json_data = json.dumps(data)
 
 # Deserialize data
-dict_deserialized = json.loads(json_data
-print(type(json_data))
+dict_deserialized = json.loads(json_data)
+
+print(type(dict_deserialized))
 
 str_deserialized = json.loads('[1,2,3]')
 print(type(str_deserialized))

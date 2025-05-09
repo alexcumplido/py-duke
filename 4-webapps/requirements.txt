@@ -1,0 +1,7 @@
+Flask
+pylint
+pytest
+black
+pytest-cov
+fastapi
+uvicorn

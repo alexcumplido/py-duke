@@ -1,0 +1,1 @@
+# Web scrapping, HTML Parsing, Beautiful Soup, CSS Selectors, Scrapy, XPath

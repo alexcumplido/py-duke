@@ -18,6 +18,7 @@ import sqlite3
 ## CREATE TABLE ##
 # conn = sqlite3.connect(':memory')
 conn = sqlite3.connect('sample.db')
+cursor = conn.cursor()
 
 table = '''
     CREATE TABLE users (
@@ -27,7 +28,7 @@ table = '''
     )
 '''
 
-cursor = conn.cursor()
+
 
 cursor.execute(table)
 
